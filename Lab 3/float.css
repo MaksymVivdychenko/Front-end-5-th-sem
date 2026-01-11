@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section
+{
+    height: 90vh;
+    width: 100%;
+    min-height: 450px;
+    min-width: 1080x;
+}
+.footer-section
+{
+    height: 10vh;
+    width: 100%;
+}
+
+.footer-section .text-div
+{
+    float: left;
+    height: 100%;
+    width: 75%;
+    overflow:hidden;
+    background-color: #ffdfc4;
+}
+
+.footer-section .image-div
+{
+    display: flex;
+    float:right;
+    height: 100%;
+    width: 25%;
+    background-color: #cf17c2;
+}
+
+.sidebar-image
+{
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-color: #2ae879;
+}
+
+.right-text-section
+{
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+.upper-text-div
+{
+    height: 11%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.middle-text-div
+{
+    height: 89%;
+    width: 100%;
+    background-color: yellow;
+}

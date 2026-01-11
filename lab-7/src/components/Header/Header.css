@@ -1,0 +1,17 @@
+﻿#header-name, #birth-date {
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.active-header {
+    background-color: red !important;
+    color: white !important;
+}
+
+.active-date {
+    background-color: green !important;
+    color: purple !important;
+}

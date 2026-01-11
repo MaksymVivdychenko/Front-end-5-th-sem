@@ -1,0 +1,15 @@
+body
+{
+    padding: 14px;
+}
+
+.ChangeableImg
+{
+    margin-top: 15px;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,18 @@
+﻿.image-manager {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.buttons-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.image-display img {
+    transition: width 0.3s ease;
+    max-width: 100%;
+    display: block;
+}

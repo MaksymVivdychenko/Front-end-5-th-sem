@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Circle
+{
+    border-radius: 50%;
+}
+
+.WhiteCircle
+{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.CenterCircle
+{
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+    background-color: white;
+}
+
+.GreyCircle
+{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: gray;
+}
+
+/* Position figure: */
+.PositionFigure .WhiteCircle
+{
+    position: absolute;
+}
+
+.PositionFigure .CenterCircle
+{
+    position: absolute;
+}
+
+
+.PositionFigure .GreyCircle
+{
+    position: relative;
+}
+
+.PositionFigure .first
+{
+    left: 75px;
+    top: -25px;
+}
+
+.PositionFigure .second
+{
+    left: 150px;
+}
+
+.PositionFigure .third
+{
+    left: 175px;
+    top: 75px;
+}
+
+.PositionFigure .fourth
+{
+    left: 150px;
+    top: 150px;
+}
+
+.PositionFigure .fifth
+{
+    left: 75px;
+    top: 175px;
+}
+
+.PositionFigure .sixth
+{
+    left: 0px;
+    top: 150px;
+}
+.PositionFigure .seventh
+{
+    left:-25px;
+    top:75px;
+}
+
+/* Transform figure: */ 
+.TransformFigure .CenterCircle
+{
+    transform: translate(50px, 50px);
+}
+
+.TransformFigure .first
+{
+    transform: translate(75px, -125px);
+}
+.TransformFigure .second
+{
+    transform: translate(150px, -150px);
+}
+.TransformFigure .third
+{
+    transform: translate(175px, -125px);
+}
+.TransformFigure .fourth
+{
+    transform: translate(150px, -100px);
+}
+.TransformFigure .fifth
+{
+    transform: translate(75px, -125px);
+}
+.TransformFigure .sixth
+{
+    transform: translate(0px, -200px);
+}
+.TransformFigure .seventh
+{
+    transform: translate(-25px, -325px);
+}
+.TransformFigure .eight
+{
+    transform: translate(0px, -450px);
+} 
